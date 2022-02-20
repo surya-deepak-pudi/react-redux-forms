@@ -2,10 +2,6 @@ const path = require("path")
 const common = require("./webpack.config")
 const { merge } = require("webpack-merge")
 const HTMLWebpackPlugin = require("html-webpack-plugin")
-<<<<<<< HEAD
-=======
-/* eslint-disable global-require */
->>>>>>> origin/redux
 
 process.env.NODE_ENV = "development"
 
@@ -38,11 +34,4 @@ module.exports = merge(common, {
     port: 3000,
     hot: true,
   },
-<<<<<<< HEAD
-  output: {
-    filename: "main.[contenthash].js",
-    path: path.resolve(__dirname, "dist"),
-  },
-=======
->>>>>>> origin/redux
 })
